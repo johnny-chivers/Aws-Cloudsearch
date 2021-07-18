@@ -1,0 +1,19 @@
+[
+    {
+       "fields" : {
+          "questionid" : "1b0b0bd-6ca-d2a1-1f62-8b885b145c",
+          "question": "What is the availability of S3?",
+          "answer": ["99.9%"],
+          "options":["99.9%","99.5%","99.0%","100.%"] , 
+          "explaination": "S3 has avaiability of 99.9%", 
+          "imageurl": "", 
+          "platform": "AWS", 
+          "difficulty": 1,
+          "services": [154],
+          "question_bucket_object_json_s3_location":"theqb-s3-bucket",
+		  "question_key_object_json_s3_location":"key/questionid1.json"
+       },
+       "id" : "questionid1",
+       "type" : "add"
+    }
+]
