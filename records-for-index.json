@@ -1,5 +1,7 @@
 [
     {
+      "id" : "questionid1",
+      "type" : "add",
        "fields" : {
           "questionid" : "questionid1",
           "question": "What is the availability of S3?",
@@ -12,11 +14,11 @@
           "services": [154],
           "question_bucket_object_json_s3_location":"theqb-s3-bucket",
 		  "question_key_object_json_s3_location":"key/questionid1.json"
-       },
-       "id" : "questionid1",
-       "type" : "add"
-    } ,
+       }
+    },
     {
+      "id" : "questionid2",
+      "type" : "add",
         "fields" : {
            "questionid" : "questionid2",
            "question": "What is the durability of S3?",
@@ -29,8 +31,5 @@
            "services": [154],
            "question_bucket_object_json_s3_location":"theqb-s3-bucket",
            "question_key_object_json_s3_location":"key/questionid1.json"
-        },
-        "id" : "questionid2",
-        "type" : "add"
-     } 
-]
+        }
+     }]
